@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form.js"></script>
+
+    <title>Отправка формы на почту </title>
+
+    
+   
+  </head>
+
+  <body>
+    <form class="form" action="mail.php" method="POST">
+      <h2 class="form__title">Ваши данные</h2>
+      <input class=" form__input _req" type="text" name="name" placeholder="Ваше имя">
+      <input class=" form__input _req" type="phone" name="phone" placeholder="Ваш телефон">
+      <input class=" form__input _req _email" type="email" name="email" placeholder="Электронная почта">
+      <button class="form__button" type="submit">Отправить</button>
+  </form>
+
+
+   
+  </body>
+</html>
+	
